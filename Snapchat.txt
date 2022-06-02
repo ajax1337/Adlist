@@ -27,7 +27,7 @@ us-east1-aws.api.snapchat.com
 us-east4-gcp.api.snapchat.com
 gcs.sc-cdn.net
 
-jio
+//jio
 psapi.voot.com
 v3img.voot.com
 vootapi.media.jio.com
