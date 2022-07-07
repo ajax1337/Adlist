@@ -26,6 +26,11 @@ us-central1-gcp.api.snapchat.com
 us-east1-aws.api.snapchat.com
 us-east4-gcp.api.snapchat.com
 gcs.sc-cdn.net
+aws-proxy-gcp.api.snapchat.com
+asia-southeast1-gcp.api.snapchat.com
+us-east1-aws-cf.api.snapchat.com
+cirrus-full-snapshots-track-csv-v1-0-eu-prod.s3.eu-west-1.amazonaws.com
+
 
 //jio
 psapi.voot.com
