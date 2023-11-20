@@ -1,3 +1,4 @@
+/snapchat
 addlive.io
 feelinsonice.com
 sc-cdn.net
@@ -30,6 +31,22 @@ aws-proxy-gcp.api.snapchat.com
 asia-southeast1-gcp.api.snapchat.com
 us-east1-aws-cf.api.snapchat.com
 cirrus-full-snapshots-track-csv-v1-0-eu-prod.s3.eu-west-1.amazonaws.com
+analytics.snapchat.com
+app-analytics.snapchat.com
+usc.adserver.snapads.com
+snapads.com
+app-analytics-v2.snapchat.com
+asia-southeast1-gcp.api.snapchat.com
+pica.aeonlucid.com
+us-central1-gcp.api.snapchat.com
+geofilters-api.snapchat.com
+cognac-prod.appspot.com
+ase.adserver.snapads.com
+tr.snapchat.com
+loc.sc-jpl.com
+storage.googleapis.com
+snapchat-proxy.appspot.com1
+
 
 
 //jio
