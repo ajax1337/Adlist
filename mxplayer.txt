@@ -1,0 +1,16 @@
+
+#mxplayer
+evt.mxplay.com
+llvod.mxplay.com
+api.mxplayer.in
+mmx-ds.cdn.whatsapp.net
+qqcdnpictest.mxplay.com
+mxplayerpic.overseavideo.sched.apdcdn.com
+zoommx25ht.qr.zoom.us
+ads-server.mxplay.com
+qqcdn.mxtakatak.com
+takatakapi.mxplayer.in
+in.amxvpos.com
+qqtakatak.mxplay.com.videojs.sched.apcdns.com
+
+
