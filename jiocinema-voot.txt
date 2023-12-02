@@ -16,3 +16,6 @@ auth-jiocinema.voot.com
 segment-jiocinema.voot.com
 jioadsweb.akamaized.net
 prod-sports-north-gm.jiocinema.com
+apis-jiocinema.voot.com
+cs-jv.voot.com
+v3img.voot.com
