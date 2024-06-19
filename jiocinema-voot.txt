@@ -19,3 +19,20 @@ prod-sports-north-gm.jiocinema.com
 apis-jiocinema.voot.com
 cs-jv.voot.com
 v3img.voot.com
+
+# Jio TV
+sdlhivkcdnems04.cdnsrv.jio.com
+xpressnews.cdn.jio.com
+jiomags.cdn.jio.com
+jionews.cdn.jio.com
+tv.media.jio.com
+jiotvmblive.cdn.jio.com
+jiotvimages.cdn.jio.com
+jioads.akamaized.net
+auth.media.jio.com
+jiotvapi.media.jio.com
+mercury.jio.com
+jiotvapi.cdn.jio.com
+tv.media.jio.com
+api.media.jio.com
+cohort.jiocinema.com
