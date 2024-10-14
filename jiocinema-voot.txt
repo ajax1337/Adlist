@@ -1,4 +1,16 @@
+hikari.jiocinema.com
+jiocinema.com
+www.jiocinema.com
 adtracker.jiocinema.com
+aimg-vt.jiocinema.com
+cohort.jiocinema.com
+speedkch1.jioconnect.com.prod.hosts.ooklaserver.net
+ipv4-c001-bpm002-jio-isp.1.oca.nflxvideo.net
+ipv4-c005-blr002-jio-isp.1.oca.nflxvideo.net
+mediavod.jiocinema.com
+ipv4-c007-nag001-jio-isp.1.oca.nflxvideo.net
+ipv4-c009-bom001-jio-isp.1.oca.nflxvideo.net
+ipv4-c007-maa001-jio-isp.1.oca.nflxvideo.net
 aimg.jiocinema.com
 engage.jiocinema.com
 apis-jiovoot.voot.com
@@ -31,6 +43,4 @@ auth.media.jio.com
 jiotvapi.media.jio.com
 mercury.jio.com
 jiotvapi.cdn.jio.com
-tv.media.jio.com
 api.media.jio.com
-cohort.jiocinema.com
