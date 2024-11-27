@@ -1,0 +1,52 @@
+! Hotstar Blocklist - Last Updated: 2024-11-27
+
+! Primary Domains
+||hotstar.com^
+||www.hotstar.com^
+||api.hotstar.com^
+||content.hotstar.com^
+||cdn.hotstar.com^
+||stats.hotstar.com^
+||analytics.hotstar.com^
+
+! Streaming Domains
+||live09p.hotstar.com^
+||live11p.hotstar.com^
+||live12p.hotstar.com^
+||live13p.hotstar.com^
+||live14p.hotstar.com^
+||live15p.hotstar.com^
+||live16p.hotstar.com^
+||live17p.hotstar.com^
+||live18p.hotstar.com^
+
+! Platform-Specific Domains
+||webos.hotstar.com^
+||tizen.hotstar.com^
+||roku.hotstar.com^
+||appletv.hotstar.com^
+||androidtv.hotstar.com^
+||firetv.hotstar.com^
+
+! CDN and Akamai Domains
+||hsprepack.akamaized.net^
+||hses.akamaized.net^
+||hses2.akamaized.net^
+||hses3.akamaized.net^
+||hses4.akamaized.net^
+||hses5.akamaized.net^
+||hses6.akamaized.net^
+||hses7.akamaized.net^
+||hses8.akamaized.net^
+
+! Content Delivery Network
+||live11p.akt.hotstar-cdn.net^
+||live12p.akt.hotstar-cdn.net^
+||live13p.akt.hotstar-cdn.net^
+||live14p.akt.hotstar-cdn.net^
+||live15p.akt.hotstar-cdn.net^
+||tailor.akt.hotstar-cdn.net^
+
+! Related Domains
+||jiohotstar.com^
+||jiocinema.com^
