@@ -1,6 +1,10 @@
-instagram.c10r.facebook.com
+# Instagram - Last Updated: 2025-03-05
+# Source: Sefinek blocklist (https://blocklist.sefinek.net)
+
 api.instagram.com
 black.ish.instagram.com
+cdninstagram.com
+edge-chat.instagram.com
 i.instagram.com
 instagram-shv-01-ams2.fbcdn.net
 instagram-shv-01-ams3.fbcdn.net
@@ -52,12 +56,15 @@ instagram-shv-13-frc1.fbcdn.net
 instagram-shv-17-prn1.fbcdn.net
 instagram-shv-18-prn1.fbcdn.net
 instagram.com
+instagram.fcmn3-1.fna.fbcdn.net
+instagram.fpoz6-1.fna.fbcdn.net
 instagramstatic-a.akamaihd.net
 instagramstatic-a.akamaihd.net.edgesuite.net
 logger.instagram.com
 platform.instagram.com
 scontent-iad3-1.cdninstagram.com
 scontent.cdninstagram.com
+static.cdninstagram.com
 telegraph-ash.instagram.com
 white.ish.instagram.com
-www.instagram.com1
+www.instagram.com

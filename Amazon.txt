@@ -1,0 +1,41 @@
+# Amazon - Ads & Tracking - Last Updated: 2025-03-05
+# Sources: TimTheBig/pi-hole, Perflyst/AmazonFireTV, bloodhunterd/pi-hole-blocklists
+# Covers: Amazon ads, Fire TV ads, Echo/device analytics, Amazon Advertising System
+
+# Amazon Advertising System
+ads.amazon.com
+amazon-adsystem.com
+ads.amazon-adsystem.com
+aax.amazon-adsystem.com
+aax-eu.amazon-adsystem.com
+fls-eu.amazon-adsystem.com
+fls-na.amazon-adsystem.com
+vaes.amazon-adsystem.com
+advertising-api.amazon.com
+yab-adimages.s3.amazonaws.com
+
+# Device metrics & analytics
+device-metrics-us.amazon.com
+device-metrics-us-2.amazon.com
+unagi-na.amazon.com
+mobileanalytics.us-east-1.amazonaws.com
+aax-us-iad.amazon.com
+metrics.media-amazon.com
+
+# Fire TV / Echo messaging & ads
+device-messaging-na.amazon.com
+devicemessaging.us-east-1.amazon.com
+fls-eu.amazon.com
+fls-na.amazon.com
+mads-eu.amazon.com
+mas-sdk.amazon.com
+d3p8zr0ffa9t17.cloudfront.net
+
+# Third-party (Fire TV)
+config.ioam.de
+de.ioam.de
+secure-eu.imrworldwide.com
+logs1409.xiti.com
+tracksrv.zdf.de
+settings.crashlytics.com
+notify.firetv.bugsnag.appstore.a2z.com

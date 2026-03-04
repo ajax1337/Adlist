@@ -1,0 +1,27 @@
+# Apple - Ads & Tracking - Last Updated: 2025-03-05
+# Sources: TimTheBig/pi-hole, crazy-max/WindowsSpyBlocker
+# CAUTION: Blocking metrics.icloud.com may affect some iCloud features. Exclude if issues occur.
+
+# Apple Advertising
+ads.apple.com
+advertising.apple.com
+
+# iAd SDK (in-app ads)
+cf.iadsdk.apple.com
+
+# Analytics & telemetry
+metrics.apple.com
+metrics.icloud.com
+books-analytics-events.apple.com
+securemvt.apple.com
+securemvt.apple.com.cn
+init-p01md.apple.com
+
+# Siri / voice analytics
+guzzoni.apple.com
+api-aka.smoot.apple.com
+fr51p02sa.guzzoni-apple.com.akadns.net
+
+# Location / Maps telemetry
+gs-loc.apple.com
+gsp85-ssl.ls2-apple.com.akadns.net
