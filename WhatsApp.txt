@@ -1,0 +1,31 @@
+# WhatsApp - Observed domains (DNS inventory from NextDNS logs)
+# Last Updated: 2026-03-20
+# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
+# Classifier: rule-based suffix map (apps-export.config.json).
+
+e1.whatsapp.net
+e10.whatsapp.net
+e11.whatsapp.net
+e12.whatsapp.net
+e13.whatsapp.net
+e14.whatsapp.net
+e15.whatsapp.net
+e16.whatsapp.net
+e2.whatsapp.net
+e3.whatsapp.net
+e4.whatsapp.net
+e5.whatsapp.net
+e6.whatsapp.net
+e7.whatsapp.net
+e8.whatsapp.net
+e9.whatsapp.net
+media-blr1-1.cdn.whatsapp.net
+media-blr1-2.cdn.whatsapp.net
+media-maa3-3.cdn.whatsapp.net
+media.fcok1-1.fna.whatsapp.net
+media.fcok10-1.fna.whatsapp.net
+media.fcok10-2.fna.whatsapp.net
+media.fcok10-3.fna.whatsapp.net
+media.fcok10-4.fna.whatsapp.net
+media.fcok14-1.fna.whatsapp.net

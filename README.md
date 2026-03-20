@@ -2,7 +2,7 @@
 
 Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/tracking blockers.
 
-**Last Updated:** 2025-03-05
+**Last Updated:** 2026-03-20
 
 ## Lists
 
@@ -17,6 +17,24 @@ Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/track
 | `mxplayer.txt` | MX Player, Takatak | Plain domains |
 | `Amazon.txt` | Amazon, Fire TV, Echo | Plain domains |
 | `Apple.txt` | Apple ads, iAd, analytics | Plain domains |
+| `WhatsApp.txt` | WhatsApp (observed DNS inventory) | Plain domains |
+| `Duolingo.txt` | Duolingo | Plain domains |
+| `Grammarly.txt` | Grammarly | Plain domains |
+| `Facebook.txt` | Facebook / Meta | Plain domains |
+| `Twitter.txt` | X (Twitter) | Plain domains |
+| `Reddit.txt` | Reddit | Plain domains |
+| `Discord.txt` | Discord | Plain domains |
+| `Slack.txt` | Slack | Plain domains |
+| `Spotify.txt` | Spotify | Plain domains |
+| `Netflix.txt` | Netflix | Plain domains |
+| `Notion.txt` | Notion | Plain domains |
+| `Zoom.txt` | Zoom | Plain domains |
+| `TikTok.txt` | TikTok | Plain domains |
+| `LinkedIn.txt` | LinkedIn | Plain domains |
+| `GitHub.txt` | GitHub | Plain domains |
+| `Microsoft.txt` | Microsoft / Microsoft 365 | Plain domains |
+| `Apple-services-inventory.txt` | Apple (observed DNS inventory) | Plain domains |
+| `Google-services-inventory.txt` | Google (observed DNS inventory) | Plain domains |
 
 ## Sources
 
@@ -29,12 +47,14 @@ Domains are merged from the following community-maintained lists:
 - **Hotstar/JioCinema:** Web research, StevenBlack/hosts issues
 - **Amazon:** [TimTheBig/pi-hole](https://github.com/TimTheBig/the_big_list_for_pi-hole), [Perflyst/AmazonFireTV](https://github.com/Perflyst/PiHoleBlocklist), [bloodhunterd/pi-hole-blocklists](https://github.com/bloodhunterd/pi-hole-blocklists)
 - **Apple:** [TimTheBig/pi-hole](https://github.com/TimTheBig/the_big_list_for_pi-hole), [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
+- **Per-app inventory lists** (`WhatsApp.txt`, `Duolingo.txt`, `Grammarly.txt`, `Facebook.txt`, `Zoom.txt`, `Apple-services-inventory.txt`, `Google-services-inventory.txt`, and merges into existing lists): observed domains from **NextDNS resolver logs** (suffix rules via [nextdns-adlist-export](https://github.com/ajax1337/Adlist)); merged with existing file contents — **no duplicate domain lines** within each file.
 
 ## Limitations
 
 - **YouTube:** `ytdomains.txt` lists all YouTube-associated domains. DNS blocking has limited effect on YouTube ads because ads are served from the same domains as content. For ad blocking on YouTube, use uBlock Origin or SmartTubeNext (Android TV).
 - **Streaming:** Many streaming services serve ads from their own CDN, making DNS-level blocking less effective. Browser extensions or app-level blockers often work better.
 - **Apple:** Blocking `metrics.icloud.com` may affect some iCloud features. Exclude if you experience issues.
+- **Inventory lists:** Files built from live DNS logs (see Sources) are **not** the same as curated ad-only lists: they may include **API and CDN** hostnames. **Do not** use them as blind global blocklists — review first or use for analysis / targeted policies. `Apple-services-inventory.txt` / `Google-services-inventory.txt` are separate from curated **`Apple.txt`** (ads/analytics focus). YouTube delivery hosts (`googlevideo.com`, `gvt*`) are kept in **`ytdomains.txt`**, not in `Google-services-inventory.txt`.
 
 ## Usage
 

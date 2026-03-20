@@ -1,5 +1,8 @@
-# Instagram - Last Updated: 2025-03-05
-# Source: Sefinek blocklist (https://blocklist.sefinek.net)
+# Instagram - Observed domains (DNS inventory from NextDNS logs)
+# Last Updated: 2026-03-20
+# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
+# Classifier: rule-based suffix map (apps-export.config.json).
 
 api.instagram.com
 black.ish.instagram.com
@@ -57,14 +60,35 @@ instagram-shv-17-prn1.fbcdn.net
 instagram-shv-18-prn1.fbcdn.net
 instagram.com
 instagram.fcmn3-1.fna.fbcdn.net
+instagram.fcok1-1.fna.fbcdn.net
+instagram.fcok10-1.fna.fbcdn.net
+instagram.fcok10-2.fna.fbcdn.net
+instagram.fcok10-4.fna.fbcdn.net
+instagram.fcok14-1.fna.fbcdn.net
 instagram.fpoz6-1.fna.fbcdn.net
 instagramstatic-a.akamaihd.net
 instagramstatic-a.akamaihd.net.edgesuite.net
+l.instagram.com
 logger.instagram.com
 platform.instagram.com
+scontent-fallback.cdninstagram.com
 scontent-iad3-1.cdninstagram.com
+scontent-maa3-1.cdninstagram.com
+scontent-maa3-2.cdninstagram.com
+scontent-maa3-3.cdninstagram.com
+scontent-maa5-1.cdninstagram.com
+scontent-maa5-2.cdninstagram.com
 scontent.cdninstagram.com
+scontent.fallback.cdninstagram.com
+scontent.fallback.xx.fbcdn.net
+scontent.fcok1-1.fna.fbcdn.net
+scontent.fcok14-1.fna.fbcdn.net
+scontent.xx.fbcdn.net
+star.fallback.c10r.instagram.com
 static.cdninstagram.com
+static.xx.fbcdn.net
 telegraph-ash.instagram.com
+test-gateway.instagram.com
 white.ish.instagram.com
 www.instagram.com
+z-p42-instagram.fallback.c10r.instagram.com

@@ -1,41 +1,47 @@
-# Amazon - Ads & Tracking - Last Updated: 2025-03-05
-# Sources: TimTheBig/pi-hole, Perflyst/AmazonFireTV, bloodhunterd/pi-hole-blocklists
-# Covers: Amazon ads, Fire TV ads, Echo/device analytics, Amazon Advertising System
+# Amazon - Observed domains (DNS inventory from NextDNS logs)
+# Last Updated: 2026-03-20
+# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
+# Classifier: rule-based suffix map (apps-export.config.json).
 
-# Amazon Advertising System
-ads.amazon.com
-amazon-adsystem.com
-ads.amazon-adsystem.com
-aax.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
-fls-eu.amazon-adsystem.com
-fls-na.amazon-adsystem.com
-vaes.amazon-adsystem.com
-advertising-api.amazon.com
-yab-adimages.s3.amazonaws.com
-
-# Device metrics & analytics
-device-metrics-us.amazon.com
-device-metrics-us-2.amazon.com
-unagi-na.amazon.com
-mobileanalytics.us-east-1.amazonaws.com
 aax-us-iad.amazon.com
-metrics.media-amazon.com
-
-# Fire TV / Echo messaging & ads
+aax.amazon-adsystem.com
+ads.amazon-adsystem.com
+ads.amazon.com
+advertising-api.amazon.com
+amazon-adsystem.com
+ap-sin-00001.s3.dualstack.ap-southeast-1.amazonaws.com
+api.amazon.com
+api.amazon.in
+appx.transient.amazon.in
+arcus-uswest.amazon.com
+c.media-amazon.com
+config.ioam.de
+d3p8zr0ffa9t17.cloudfront.net
+de.ioam.de
 device-messaging-na.amazon.com
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
 devicemessaging.us-east-1.amazon.com
+fls-eu.amazon-adsystem.com
 fls-eu.amazon.com
+fls-na.amazon-adsystem.com
 fls-na.amazon.com
+images-eu.ssl-images-amazon.com
+images-na.ssl-images-amazon.com
+logs1409.xiti.com
+m.media-amazon.com
 mads-eu.amazon.com
 mas-sdk.amazon.com
-d3p8zr0ffa9t17.cloudfront.net
-
-# Third-party (Fire TV)
-config.ioam.de
-de.ioam.de
-secure-eu.imrworldwide.com
-logs1409.xiti.com
-tracksrv.zdf.de
-settings.crashlytics.com
+metrics.media-amazon.com
+mobileanalytics.us-east-1.amazonaws.com
+msh.amazon.co.uk
 notify.firetv.bugsnag.appstore.a2z.com
+secure-eu.imrworldwide.com
+settings.crashlytics.com
+tracksrv.zdf.de
+unagi-na.amazon.com
+vaes.amazon-adsystem.com
+www.amazon.in
+yab-adimages.s3.amazonaws.com

@@ -1,0 +1,19 @@
+# Facebook / Meta - Observed domains (DNS inventory from NextDNS logs)
+# Last Updated: 2026-03-20
+# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
+# Classifier: rule-based suffix map (apps-export.config.json).
+
+edge-mqtt-fallback.facebook.com
+instagram.fcok1-1.fna.fbcdn.net
+instagram.fcok10-1.fna.fbcdn.net
+instagram.fcok10-2.fna.fbcdn.net
+instagram.fcok10-4.fna.fbcdn.net
+instagram.fcok14-1.fna.fbcdn.net
+mobile.facebook.com
+scontent.fallback.xx.fbcdn.net
+scontent.fcok1-1.fna.fbcdn.net
+scontent.fcok14-1.fna.fbcdn.net
+scontent.xx.fbcdn.net
+static.xx.fbcdn.net
+z-p42-chat-e2ee-ig.facebook.com

@@ -1,0 +1,12 @@
+# Grammarly - Observed domains (DNS inventory from NextDNS logs)
+# Last Updated: 2026-03-20
+# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
+# Classifier: rule-based suffix map (apps-export.config.json).
+
+assets.grammarly.com
+auth.grammarly.com
+capi.grammarly.com
+in.grammarly.com
+properties.grammarly.com
+subscription.grammarly.com

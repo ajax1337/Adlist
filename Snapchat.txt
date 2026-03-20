@@ -1,33 +1,36 @@
-# Snapchat - Last Updated: 2025-03-05
-# Sources: crpietschmann, kstrycharz, BrodyStone21
+# Snapchat - Observed domains (DNS inventory from NextDNS logs)
+# Last Updated: 2026-03-20
+# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
+# Classifier: rule-based suffix map (apps-export.config.json).
 
 accounts.snapchat.com
 addlive.io
 ads.snapchat.com
 adsapi.snapchat.com
 analytics.snapchat.com
-app.snapchat.com
-app-analytics.snapchat.com
 app-analytics-v2.snapchat.com
+app-analytics.snapchat.com
+app.snapchat.com
 ase.adserver.snapads.com
 asia-southeast1-gcp.api.snapchat.com
-aws.api.snapchat.com
-aws-proxy-gcp.api.snapchat.com
-aws.duplex.snapchat.com
 aw.sc-cdn.net
+aws-proxy-gcp.api.snapchat.com
+aws.api.snapchat.com
+aws.duplex.snapchat.com
 bolt-gcdn.sc-cdn.net
 business.snapchat.com
 businesshelp.snapchat.com
 cf-st.sc-cdn.net
 chat-gateway-prod.chat.snapchat.com
 cognac-prod.appspot.com
-feelinsonice.com
 feelinsonice-hrd.appspot.com
+feelinsonice.com
 forbusiness.snapchat.com
 gcp.api.snapchat.com
-geofilters.snapchat.com
-geofilters-api.snapchat.com
 gcs.sc-cdn.net
+geofilters-api.snapchat.com
+geofilters.snapchat.com
 gtq6.sct.sc-prod.net
 loc.sc-jpl.com
 mvm.snapchat.com
@@ -42,15 +45,15 @@ sc-static.net
 snap-dev.net
 snapads.com
 snapcamera.snapchat.com
-snapchat.com
 snapchat-proxy.appspot.com
+snapchat.com
 snapkit.com
 support.snapchat.com
 topic-sticker-vending.snapchat.com
 tr.snapchat.com
-usc.adserver.snapads.com
 us-central1-gcp.api.snapchat.com
-us-east1-aws.api.snapchat.com
 us-east1-aws-cf.api.snapchat.com
+us-east1-aws.api.snapchat.com
 us-east4-gcp.api.snapchat.com
+usc.adserver.snapads.com
 www.snapchat.com
