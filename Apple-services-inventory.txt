@@ -1,16 +1,19 @@
 # Apple services - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Last Updated: 2026-06-16
+# Source: NextDNS logs (profile 49f1d3 "ML"); plus ML manual Denylist audit on 2026-06-16
 # Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
 # Classifier: rule-based suffix map (apps-export.config.json).
 
+albert.apple.com
 api-glb-aaps1a.smoot.apple.com
 api-glb-aaps1b.smoot.apple.com
 api-safari-aaps1a.smoot.apple.com
 api.smoot.apple.com
 api2.smoot.apple.com
 app-site-association.cdn-apple.com
+apple-dns.net
 apple.com
+appleid.apple.com
 apps.mzstatic.com
 attester.gateway.icloud.com
 cabana-server.cdn-apple.com
@@ -25,9 +28,11 @@ configuration.apple.com
 configuration.ls.apple.com
 dejavu.apple.com
 device-config.pcms.apple.com
+facetime.apple.com
 gateway.icloud.com
 gdmf-ados.apple.com
 gdmf.apple.com
+gsa.apple.com
 gs-loc.apple.com
 gsas.apple.com
 gsp-ssl.ls.apple.com
@@ -47,11 +52,15 @@ gspe35-ssl.ls.apple.com
 gspe79-ssl.ls.apple.com
 guzzoni.apple.com
 humb.apple.com
+icloud.com
+identity.apple.com
 identity.ess.apple.com
 init-p01md.apple.com
 init.ess.apple.com
 init.gc.apple.com
+iphone-ld.apple.com
 ipcdn.apple.com
+itunes.apple.com
 kt-prod.ess.apple.com
 lcdn-locator.apple.com
 mesu.apple.com
@@ -63,6 +72,7 @@ pds-init.ess.apple.com
 pds.ess.apple.com
 provision.ess.apple.com
 publicassets.cdn-apple.com
+push.apple.com
 query.ess.apple.com
 register.appattest.apple.com
 s.mzstatic.com
