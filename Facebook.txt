@@ -1,25 +1,84 @@
-# Facebook / Meta - Observed domains (DNS inventory from NextDNS logs)
+# Facebook / Meta / Instagram - observed service blocklist
 # Last Updated: 2026-09-05
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
-# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
-# Classifier: rule-based suffix map (apps-export.config.json).
+# Source: ML stored DNS queries; complete seven-day range, no row cap.
+# Window (UTC): 2026-08-29T05:25:31.819Z to 2026-09-05T05:25:31.819Z
+# Full service blocking, including DMs, APIs, uploads, media and connectivity probes.
+# xy.fbcdn.net and xz.fbcdn.net cover rotating Netseer hostnames in NextDNS.
+# Evidence and format notes: Facebook-sources.md
 
+api.facebook.com
+b-www.facebook.com
+cdn.fbsbx.com
+connect.facebook.net
+edge-chat.instagram.com
 edge-mqtt-fallback.facebook.com
+edge-mqtt.facebook.com
+ep2.facebook.com
+external.fcok7-1.fna.fbcdn.net
+gateway.facebook.com
+gateway.instagram.com
+graph-fallback.facebook.com
+graph-fallback.instagram.com
+graph.facebook.com
+graph.instagram.com
+i-fallback.instagram.com
+i.instagram.com
+instagram.com
+instagram.fblr20-3.fna.fbcdn.net
+instagram.fccj2-3.fna.fbcdn.net
 instagram.fcok1-1.fna.fbcdn.net
 instagram.fcok10-1.fna.fbcdn.net
 instagram.fcok10-2.fna.fbcdn.net
+instagram.fcok10-3.fna.fbcdn.net
 instagram.fcok10-4.fna.fbcdn.net
 instagram.fcok14-1.fna.fbcdn.net
+instagram.fcok7-1.fna.fbcdn.net
+instagram.fukk3-1.fna.fbcdn.net
+instagram.fvga2-1.fna.fbcdn.net
+l.instagram.com
+lookaside.fbsbx.com
+m.facebook.com
+meta-ohttp-relay-prod.fastly-edge.com
+mobile-fallback.facebook.com
 mobile.facebook.com
+payments-graph.instagram.com
+rupload-fallback.facebook.com
+rupload.facebook.com
+scontent-blr1-1.cdninstagram.com
+scontent-blr1-2.cdninstagram.com
+scontent-fallback.cdninstagram.com
+scontent-fallback.xx.fbcdn.net
+scontent-maa3-1.cdninstagram.com
+scontent-maa3-1.xx.fbcdn.net
+scontent-maa3-2.cdninstagram.com
+scontent-maa3-2.xx.fbcdn.net
+scontent-maa3-3.cdninstagram.com
+scontent-maa5-1.cdninstagram.com
+scontent-maa5-1.xx.fbcdn.net
+scontent-maa5-2.cdninstagram.com
+scontent.cdninstagram.com
+scontent.fallback.cdninstagram.com
 scontent.fallback.xx.fbcdn.net
 scontent.fcok1-1.fna.fbcdn.net
+scontent.fcok10-1.fna.fbcdn.net
+scontent.fcok10-2.fna.fbcdn.net
+scontent.fcok10-3.fna.fbcdn.net
+scontent.fcok10-4.fna.fbcdn.net
 scontent.fcok14-1.fna.fbcdn.net
+scontent.fcok7-1.fna.fbcdn.net
 scontent.xx.fbcdn.net
-static.xx.fbcdn.net
-z-p42-chat-e2ee-ig.facebook.com
-
-# ML Instagram DM investigation: migrated from standalone denylist.
-# gateway.facebook.com remains controlled by NextDNS Facebook parental control.
-edge-mqtt.facebook.com
+star-mini.fallback.c10r.facebook.com
 star.fallback.c10r.facebook.com
-i-fallback.instagram.com
+star.fallback.c10r.instagram.com
+static.cdninstagram.com
+static.xx.fbcdn.net
+test-gateway.instagram.com
+web.facebook.com
+www-fallback.facebook.com
+www.facebook.com
+www.instagram.com
+xy.fbcdn.net
+xz.fbcdn.net
+z-p42-chat-e2ee-ig-fallback.facebook.com
+z-p42-chat-e2ee-ig.facebook.com
+z-p42-instagram.fallback.c10r.instagram.com
