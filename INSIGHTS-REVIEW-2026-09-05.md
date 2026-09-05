@@ -433,3 +433,11 @@ rr8---sn-cnoa-jv3s.googlevideo.com
 rr9---sn-cnoa-jv3s.googlevideo.com
 yt3.googleusercontent.com
 ```
+
+## Live refresh verification
+
+Published domain changes in commit `26a7859`, then fetched and parsed the canonical GitHub URLs using the production parser and refreshed all 14 existing repo custom lists through the authenticated application API. Created the three missing repo lists (Amazon services, Snapchat, Apple ads / tracking) disabled. All 17 logical lists now have matching custom-list content.
+
+The 12 updated logical lists contain 325 added entries. The second Hotstar format mirrors the same changes and is not counted twice. Five logical lists needed no domain additions.
+
+Compared all three affected profiles against a pre-refresh backup. ML gained 12 denylist entries, General gained 10, and Kukki gained 30 from lists already enabled there. Every expected addition is present; no prior entry was removed or had its active state changed. Allowlists, parental-control settings, existing list membership, source URLs and automatic refresh intervals are unchanged. Apple services and Apple connectivity remain disabled. The full verification passed with zero unexpected differences.

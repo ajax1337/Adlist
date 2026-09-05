@@ -24,6 +24,8 @@ Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/track
 | `Zoom.txt` | Zoom | Plain domains |
 | `Apple-services-inventory.txt` | Apple (observed DNS inventory) | Plain domains |
 | `Google-services-inventory.txt` | Google (observed DNS inventory) | Plain domains |
+| `Apple-connectivity.txt` | Apple connectivity testing | Plain domains |
+| `occult` | Occult / astrology services | Plain domains |
 
 ## Sources
 
