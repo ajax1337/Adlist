@@ -1,9 +1,16 @@
-# WhatsApp - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
-# Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
-# Classifier: rule-based suffix map (apps-export.config.json).
+# WhatsApp - observed service blocklist
+# Last Updated: 2026-09-05
+# Source: ML stored DNS traffic; complete seven-day range without a row cap.
+# Window (UTC): 2026-08-29T16:05:13.375Z to 2026-09-05T16:05:13.375Z
+# Full service blocking: messaging, media, APIs, website and diagnostics.
+# Root domains cover subdomains when imported into NextDNS.
+# Evidence and scope: WhatsApp-sources.md
 
+acs.whatsapp.com
+api.whatsapp.net
+chat.whatsapp.com
+crashlogs.whatsapp.net
+dit.whatsapp.net
 e1.whatsapp.net
 e10.whatsapp.net
 e11.whatsapp.net
@@ -20,12 +27,29 @@ e6.whatsapp.net
 e7.whatsapp.net
 e8.whatsapp.net
 e9.whatsapp.net
+faq.whatsapp.com
+g-fallback.whatsapp.net
+g.whatsapp.net
+graph.whatsapp.com
 media-blr1-1.cdn.whatsapp.net
 media-blr1-2.cdn.whatsapp.net
+media-lax7-1.cdn.whatsapp.net
+media-maa3-1.cdn.whatsapp.net
+media-maa3-2.cdn.whatsapp.net
 media-maa3-3.cdn.whatsapp.net
+media-maa5-1.cdn.whatsapp.net
+media-maa5-2.cdn.whatsapp.net
 media.fcok1-1.fna.whatsapp.net
 media.fcok10-1.fna.whatsapp.net
 media.fcok10-2.fna.whatsapp.net
 media.fcok10-3.fna.whatsapp.net
 media.fcok10-4.fna.whatsapp.net
 media.fcok14-1.fna.whatsapp.net
+media.fcok7-1.fna.whatsapp.net
+mmg.whatsapp.net
+mmx-ds.cdn.whatsapp.net
+pps.whatsapp.net
+static.whatsapp.net
+whatsapp.com
+whatsapp.net
+www.whatsapp.com
