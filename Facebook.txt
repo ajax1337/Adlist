@@ -1,5 +1,5 @@
 # Facebook / Meta - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
+# Last Updated: 2026-09-05
 # Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
 # Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
 # Classifier: rule-based suffix map (apps-export.config.json).
@@ -17,3 +17,9 @@ scontent.fcok14-1.fna.fbcdn.net
 scontent.xx.fbcdn.net
 static.xx.fbcdn.net
 z-p42-chat-e2ee-ig.facebook.com
+
+# ML Instagram DM investigation: migrated from standalone denylist.
+# gateway.facebook.com remains controlled by NextDNS Facebook parental control.
+edge-mqtt.facebook.com
+star.fallback.c10r.facebook.com
+i-fallback.instagram.com
