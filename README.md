@@ -62,6 +62,6 @@ Add the raw file URLs to your Pi-hole adlist, AdGuard Home blocklist, or uBlock 
 
 ## Apple connectivity test list
 
-`Apple-connectivity.txt` contains 13 Apple authentication, iCloud, push, Store and media domains moved out of ML's active blocking policy on 2026-09-05. It is a full-service blocklist, intended to remain disabled during testing. `mediaservices.cdn-apple.com` was moved out of `TV Ads.txt`. The broader `Apple-services-inventory.txt` is separate.
+`Apple-connectivity.txt` contains 17 Apple authentication, iCloud, push, Store and media domains. The custom list remains disabled on ML for testing and these entries are absent from ML's denylist. `mediaservices.cdn-apple.com` was moved out of `TV Ads.txt`. The broader `Apple-services-inventory.txt` is separate.
 
-ML has narrow allowlist exceptions for `api.apps.apple.com` and `api-edge.apps.apple.com` because NextDNS Gaming also blocks them. Remove those exceptions before using this list to block those two hosts; allowlist rules take precedence. Scheduled use of the broader Apple list can still block Apple services.
+No App Store allowlist exceptions are retained. NextDNS Gaming independently blocks some App Store API and image hosts even with this custom list disabled. Scheduled use of the broader Apple services list can also block Apple services.

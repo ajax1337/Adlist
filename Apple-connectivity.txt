@@ -1,10 +1,12 @@
 # Apple connectivity - full service blocking, not ads only
-# Created: 2026-09-05
-# ML diagnostic list: keep disabled during connectivity testing.
-# The two App Store API hosts also match NextDNS Gaming filtering.
-# Remove their ML allowlist exceptions before enabling this list to block them.
+# Updated: 2026-09-05
+# Keep disabled on ML during connectivity testing.
+# NextDNS Gaming independently blocks some App Store hosts even when this list is disabled.
 
 albert.apple.com
+amp-api-edge.apps.apple.com
+amp-api-search-edge.apps.apple.com
+amp-api.apps.apple.com
 api-edge.apps.apple.com
 api.apps.apple.com
 apple-dns.net
@@ -14,6 +16,7 @@ gsa.apple.com
 icloud.com
 identity.apple.com
 iphone-ld.apple.com
+is1-ssl.mzstatic.com
 itunes.apple.com
 mediaservices.cdn-apple.com
 push.apple.com
