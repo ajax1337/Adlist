@@ -2,7 +2,7 @@
 
 Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/tracking blockers.
 
-**Last Updated:** 2026-03-20
+**Last Updated:** 2026-09-05
 
 ## Lists
 
@@ -21,18 +21,7 @@ Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/track
 | `Duolingo.txt` | Duolingo | Plain domains |
 | `Grammarly.txt` | Grammarly | Plain domains |
 | `Facebook.txt` | Facebook / Meta | Plain domains |
-| `Twitter.txt` | X (Twitter) | Plain domains |
-| `Reddit.txt` | Reddit | Plain domains |
-| `Discord.txt` | Discord | Plain domains |
-| `Slack.txt` | Slack | Plain domains |
-| `Spotify.txt` | Spotify | Plain domains |
-| `Netflix.txt` | Netflix | Plain domains |
-| `Notion.txt` | Notion | Plain domains |
 | `Zoom.txt` | Zoom | Plain domains |
-| `TikTok.txt` | TikTok | Plain domains |
-| `LinkedIn.txt` | LinkedIn | Plain domains |
-| `GitHub.txt` | GitHub | Plain domains |
-| `Microsoft.txt` | Microsoft / Microsoft 365 | Plain domains |
 | `Apple-services-inventory.txt` | Apple (observed DNS inventory) | Plain domains |
 | `Google-services-inventory.txt` | Google (observed DNS inventory) | Plain domains |
 
@@ -62,6 +51,10 @@ Add the raw file URLs to your Pi-hole adlist, AdGuard Home blocklist, or uBlock 
 
 ## Apple connectivity test list
 
-`Apple-connectivity.txt` contains 17 Apple authentication, iCloud, push, Store and media domains. The custom list remains disabled on ML for testing and these entries are absent from ML's denylist. `mediaservices.cdn-apple.com` was moved out of `TV Ads.txt`. The broader `Apple-services-inventory.txt` is separate.
+`Apple-connectivity.txt` contains 19 Apple authentication, iCloud, push, Store and media domains. The custom list remains disabled on ML for testing and these entries are absent from ML's denylist. `mediaservices.cdn-apple.com` was moved out of `TV Ads.txt`. The broader `Apple-services-inventory.txt` is separate.
 
 No App Store allowlist exceptions are retained. NextDNS Gaming independently blocks some App Store API and image hosts even with this custom list disabled. Scheduled use of the broader Apple services list can also block Apple services.
+
+## Insights review
+
+[September 5, 2026 review](INSIGHTS-REVIEW-2026-09-05.md) compares every existing list with a complete seven-day ML log query and Insights classifications, documents additions and exclusions, and distinguishes new coverage from already-covered inventory entries. Service inventories block normal app functionality when enabled. Existing enabled states were preserved during refresh.

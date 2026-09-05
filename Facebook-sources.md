@@ -18,3 +18,7 @@ This is a service-blocking inventory, not an ads-only list. Observed traffic inc
 Parent rules cover subdomains when NextDNS-Pro imports them into NextDNS's denylist. Exact-match-only DNS blockers may need wildcard configuration for the two Netseer parents. Parent entries intentionally cover future names in these dedicated namespaces.
 
 The custom Facebook / Meta list remains disabled on ML after refresh. Existing Facebook parental-control filtering remains independent, including gateway.facebook.com. No denylist or allowlist changes are part of this inventory update.
+
+## Subsequent all-list review
+
+The [ML Insights review](INSIGHTS-REVIEW-2026-09-05.md) adds further observed entries or dedicated parent domains and records the current counts. Earlier counts above describe the preceding snapshot.

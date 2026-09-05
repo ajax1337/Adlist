@@ -1,8 +1,8 @@
 # Amazon - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Last Updated: 2026-09-05
+# Source: historical inventory merged with the uncapped seven-day ML Insights review; see INSIGHTS-REVIEW-2026-09-05.md.
 # Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
-# Classifier: rule-based suffix map (apps-export.config.json).
+# Classification: historical suffix map plus reviewed Insights ownership and dedicated-domain evidence.
 
 aax-eu.amazon-adsystem.com
 aax-us-iad.amazon.com
@@ -45,3 +45,50 @@ unagi-na.amazon.com
 vaes.amazon-adsystem.com
 www.amazon.in
 yab-adimages.s3.amazonaws.com
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+aax-eu-zaz.amazon.in
+aax-events-cell02-cf.eu-south.ono.axp.amazon-adsystem.com
+adkit-advertising.amazon
+aes.eu-south.ono.axp.amazon-adsystem.com
+aes.eu-west.ono.axp.amazon-adsystem.com
+aiv-delivery.net
+amazon.co.uk
+amazon.com
+amazon.eu
+amazon.in
+amazonvideo.com
+api.amazon.co.uk
+api.eu-west-1.aiv-delivery.net
+api.in.3ds.websdk.amazon.dev
+api.mshop.bdtelemetry.amazon
+api.stores.eu-south-2.prod.paets.advertising.amazon.dev
+api.stores.eu-west-1.prod.paets.advertising.amazon.dev
+api.us-east-1.aiv-delivery.net
+bob-dispatch-prod-eu.amazon.com
+cf-timedtext.aux.pv-cdn.net
+cf-trickplay.aux.pv-cdn.net
+com-amazon-amazonin.triggers-v1.prod.mobile.weblab.a2z.com
+completion.amazon.com
+data.amazon.in
+fls-eu.amazon.in
+global.telemetry.insights.video.a2z.com
+in.3ds.websdk.amazon.dev
+logger-beta.aips.in-payments.amazon.dev
+logger-prod.aips.in-payments.amazon.dev
+media-amazon.com
+prime.amazon.eu
+prod-1.eu-west-1.mdcs.mshop.amazon.dev
+pv-cdn.net
+sponsored-ads.amazon.in
+ssl-images-amazon.com
+static.secure-fields.payments.amazon.dev
+static.siege-amazon.com
+ters-draper1.eu-west-1.aiv-delivery.net
+ters-sgai1.eu-south-2.aiv-delivery.net
+unagi-eu.amazon.com
+unagi.amazon.in
+us-east-1.prod.service.minerva.devices.a2z.com
+www.amazon.com
+zaz.api.amazonvideo.com

@@ -82,3 +82,11 @@ xz.fbcdn.net
 z-p42-chat-e2ee-ig-fallback.facebook.com
 z-p42-chat-e2ee-ig.facebook.com
 z-p42-instagram.fallback.c10r.instagram.com
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+cdninstagram.com
+facebook.com
+facebook.net
+fbcdn.net
+fbsbx.com

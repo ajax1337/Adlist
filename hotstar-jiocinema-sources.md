@@ -16,3 +16,7 @@ Full service denial, not ad removal. NextDNS denylist parent entries cover subdo
 No blanket jio.com, akamaized.net, cloudfront.net or shared CDN IP blocks are added. Existing legacy Jio TV/news/meet entries are retained from the previous list.
 
 DNS policy only applies to clients using the profile. Existing connections and cached DNS may persist until clients reconnect; alternate resolvers or VPNs can bypass this profile. No claim of testing every app or playback path is made.
+
+## Subsequent all-list review
+
+The [ML Insights review](INSIGHTS-REVIEW-2026-09-05.md) adds further observed entries or dedicated parent domains and records the current counts. Earlier counts above describe the preceding snapshot.

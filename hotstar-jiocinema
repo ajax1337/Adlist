@@ -1,7 +1,6 @@
 ! JioHotstar / Hotstar / JioCinema / Voot - full service blocklist
-! Last Updated: 2026-09-05
-! Blocks streaming, login, APIs and media; not an ads-only list.
-! Sources and scope: hotstar-jiocinema-sources.md
+! Updated: 2026-09-05
+! Evidence: hotstar-jiocinema-sources.md and INSIGHTS-REVIEW-2026-09-05.md
 
 ||ads.hotstar.com^
 ||adsmanager.hotstar.com^
@@ -38,6 +37,7 @@
 ||fp-analytics.hotstar.com^
 ||geoip.hotstar.com^
 ||hb-analytics.hotstar.com^
+||hf-apix.hotstar.com^
 ||hikari.jiocinema.com^
 ||hotstar-cdn.net^
 ||hotstar-labs.com^
@@ -139,6 +139,7 @@
 ||tizen.hotstar.com^
 ||tr-jio-imp.adsmoloco.com^
 ||tv.media.jio.com^
+||usersvc.hotstar.com^
 ||v3img.voot.com^
 ||videoads.hotstar.com^
 ||voot.com^
@@ -147,4 +148,6 @@
 ||webos.hotstar.com^
 ||www.hotstar.com^
 ||www.jiocinema.com^
+||www.jiohotstar.com^
+||www.voot.com^
 ||xpressnews.cdn.jio.com^

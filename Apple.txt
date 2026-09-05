@@ -1,4 +1,4 @@
-# Apple - Ads & Tracking - Last Updated: 2025-03-05
+# Apple - Ads & Tracking - Last Updated: 2026-09-05
 # Sources: TimTheBig/pi-hole, crazy-max/WindowsSpyBlocker
 # CAUTION: Blocking metrics.icloud.com may affect some iCloud features. Exclude if issues occur.
 
@@ -25,3 +25,10 @@ fr51p02sa.guzzoni-apple.com.akadns.net
 # Location / Maps telemetry
 gs-loc.apple.com
 gsp85-ssl.ls2-apple.com.akadns.net
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+api-adservices.apple.com
+ca.iadsdk.apple.com
+iadsdk.apple.com
+tr.iadsdk.apple.com

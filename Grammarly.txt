@@ -1,8 +1,8 @@
 # Grammarly - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Last Updated: 2026-09-05
+# Source: historical inventory merged with the uncapped seven-day ML Insights review; see INSIGHTS-REVIEW-2026-09-05.md.
 # Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
-# Classifier: rule-based suffix map (apps-export.config.json).
+# Classification: historical suffix map plus reviewed Insights ownership and dedicated-domain evidence.
 
 assets.grammarly.com
 auth.grammarly.com
@@ -10,3 +10,12 @@ capi.grammarly.com
 in.grammarly.com
 properties.grammarly.com
 subscription.grammarly.com
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+f-log-mobile-ios.grammarly.io
+gateway.grammarly.com
+gnar.grammarly.com
+grammarly.com
+grammarly.io
+ios.femetrics.grammarly.io

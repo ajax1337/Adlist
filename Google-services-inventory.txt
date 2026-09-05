@@ -1,8 +1,8 @@
 # Google - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Last Updated: 2026-09-05
+# Source: historical inventory merged with the uncapped seven-day ML Insights review; see INSIGHTS-REVIEW-2026-09-05.md.
 # Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
-# Classifier: rule-based suffix map (apps-export.config.json).
+# Classification: historical suffix map plus reviewed Insights ownership and dedicated-domain evidence.
 
 accountcapabilities-pa.googleapis.com
 accounts.google.com
@@ -59,3 +59,59 @@ www.googleapis.com
 www.gstatic.com
 xga-serving-pa.googleapis.com
 yt3.googleusercontent.com
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+analytics.google.com
+appsgrowthpromo-pa.googleapis.com
+clients.l.google.com
+clienttracing-pa.googleapis.com
+content-autofill.googleapis.com
+content-push.googleapis.com
+crashlyticsreports-pa.googleapis.com
+fcmtoken.googleapis.com
+feedback-pa.googleapis.com
+firebase.googleapis.com
+firebaseinstallations.googleapis.com
+firebaselogging-pa.googleapis.com
+firebaseremoteconfig.googleapis.com
+gcs-us-00002.content-storage-download.googleapis.com
+geller-pa.googleapis.com
+google-analytics.com
+google.co.in
+googleadservices.com
+googletagmanager.com
+growth-pa.googleapis.com
+gz.gstatic.com
+jnn-pa.googleapis.com
+lens-pa.googleapis.com
+lens.usercontent.google.com
+locationhistory-pa.googleapis.com
+mail-attachment.googleusercontent.com
+maps.googleapis.com
+maps.gstatic.com
+mobilemaps-pa-gz.googleapis.com
+mobilemaps.googleapis.com
+ogads-pa.googleapis.com
+play.google.com
+reach-pa.googleapis.com
+readaloud.googleapis.com
+searchlabspartnerservice-pa.googleapis.com
+securetoken.googleapis.com
+securitydomain-pa.googleapis.com
+speechs3proto2-pa.googleapis.com
+ssl.google-analytics.com
+ssl.gstatic.com
+storage.googleapis.com
+streetviewpixels-pa.googleapis.com
+t0.gstatic.com
+t2.gstatic.com
+t3.gstatic.com
+translate-pa.googleapis.com
+translate.google.com
+translate.googleapis.com
+www.google-analytics.com
+www.google.co.in
+www.googleadservices.com
+www.googletagmanager.com
+xgapromomanager-pa.googleapis.com

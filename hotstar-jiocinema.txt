@@ -148,3 +148,10 @@ webos.hotstar.com
 www.hotstar.com
 www.jiocinema.com
 xpressnews.cdn.jio.com
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+hf-apix.hotstar.com
+usersvc.hotstar.com
+www.jiohotstar.com
+www.voot.com

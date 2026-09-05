@@ -1,8 +1,8 @@
 # YouTube - Observed domains (DNS inventory from NextDNS logs)
-# Last Updated: 2026-03-20
-# Source: NextDNS logs (profile 49f1d3 "ML"); from=-7d; maxLogs=10000; rows=10000
+# Last Updated: 2026-09-05
+# Source: historical inventory merged with the uncapped seven-day ML Insights review; see INSIGHTS-REVIEW-2026-09-05.md.
 # Covers: Per-app DNS names observed in logs (inventory — review before using as a blocklist; may include shared CDNs).
-# Classifier: rule-based suffix map (apps-export.config.json).
+# Classification: historical suffix map plus reviewed Insights ownership and dedicated-domain evidence.
 
 2mdn.net
 ad.doubleclick.net
@@ -279,3 +279,36 @@ yt.be
 yt3.ggpht.com
 ytimg.com
 ytimg.l.google.com
+
+# Additions from the ML Insights seven-day review, 2026-09-05.
+# Evidence, coverage and scope: INSIGHTS-REVIEW-2026-09-05.md
+effects.usercontent.youtube.com
+r1---sn-h5576nsz.googlevideo.com
+r4---sn-gwpa-a3vk.googlevideo.com
+r5---sn-gwpa-25ued.googlevideo.com
+r5---sn-h5576nsd.googlevideo.com
+rr1---sn-cnoa-jv36.googlevideo.com
+rr1---sn-cnoa-jv3s.googlevideo.com
+rr1---sn-h5576nsz.c.youtube.com
+rr1---sn-h5576nsz.googlevideo.com
+rr10---sn-cnoa-jv3s.googlevideo.com
+rr2---sn-cnoa-jv36.googlevideo.com
+rr2---sn-cnoa-jv3s.googlevideo.com
+rr2---sn-h557sn6l.googlevideo.com
+rr3---sn-ajh555-5b.googlevideo.com
+rr3---sn-cnoa-jv3s.googlevideo.com
+rr3---sn-h5576nee.googlevideo.com
+rr3---sn-h557sn6z.googlevideo.com
+rr4---sn-ajh555-54.googlevideo.com
+rr4---sn-cnoa-jv3s.googlevideo.com
+rr4---sn-h5576nsy.googlevideo.com
+rr4---sn-h557sn6l.googlevideo.com
+rr5---sn-cnoa-jv3s.googlevideo.com
+rr5---sn-gwpa-h55ee.googlevideo.com
+rr5---sn-h5576nsk.googlevideo.com
+rr5---sn-h5576nss.googlevideo.com
+rr6---sn-cnoa-jv3s.googlevideo.com
+rr7---sn-cnoa-jv3s.googlevideo.com
+rr8---sn-cnoa-jv3s.googlevideo.com
+rr9---sn-cnoa-jv3s.googlevideo.com
+yt3.googleusercontent.com
