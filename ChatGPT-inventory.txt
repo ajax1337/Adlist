@@ -1,0 +1,15 @@
+# ChatGPT app and first-party assets — observed DNS inventory
+# Last Updated: 2026-09-28
+# Source: ML stored DNS queries, 2026-09-21T11:19:44.057Z to 2026-09-28T11:19:44.057Z.
+# CAUTION: Includes functional service endpoints. Keep disabled unless full service blocking is intended.
+# Parent domains cover subdomains when imported into NextDNS.
+# Evidence and exclusions: INSIGHTS-REVIEW-2026-09-28.md
+
+ab.chatgpt.com
+bzr.openai.com
+bzrcdn.openai.com
+chatgpt.com
+ios.chat.openai.com
+oaistatic.com
+persistent.oaistatic.com
+ws.chatgpt.com

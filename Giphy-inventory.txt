@@ -1,0 +1,14 @@
+# Giphy media service — observed DNS inventory
+# Last Updated: 2026-09-28
+# Source: ML stored DNS queries, 2026-09-21T11:19:44.057Z to 2026-09-28T11:19:44.057Z.
+# CAUTION: Includes functional service endpoints. Keep disabled unless full service blocking is intended.
+# Parent domains cover subdomains when imported into NextDNS.
+# Evidence and exclusions: INSIGHTS-REVIEW-2026-09-28.md
+
+api.giphy.com
+giphy.com
+media0.giphy.com
+media1.giphy.com
+media2.giphy.com
+media3.giphy.com
+media4.giphy.com

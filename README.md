@@ -2,7 +2,7 @@
 
 Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/tracking blockers.
 
-**Last Updated:** 2026-09-05
+**Last Updated:** 2026-09-28
 
 ## Lists
 
@@ -26,6 +26,22 @@ Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/track
 | `Google-services-inventory.txt` | Google (observed DNS inventory) | Plain domains |
 | `Apple-connectivity.txt` | Apple connectivity testing | Plain domains |
 | `occult` | Occult / astrology services | Plain domains |
+| `Firebase-telemetry-inventory.txt` | Google Firebase Analytics and Crashlytics | Plain domains |
+| `Netflix-inventory.txt` | Netflix service and Open Connect | Plain domains |
+| `ChatGPT-inventory.txt` | ChatGPT app and first-party assets | Plain domains |
+| `Flo-inventory.txt` | Flo period tracker | Plain domains |
+| `Meesho-inventory.txt` | Meesho | Plain domains |
+| `Truecaller-inventory.txt` | Truecaller | Plain domains |
+| `Microsoft-Clarity-inventory.txt` | Microsoft Clarity | Plain domains |
+| `Sentry-inventory.txt` | Sentry monitoring | Plain domains |
+| `AppsFlyer-inventory.txt` | AppsFlyer SDK | Plain domains |
+| `Razorpay-inventory.txt` | Razorpay payments | Plain domains |
+| `Adjust-inventory.txt` | Adjust analytics | Plain domains |
+| `Mixpanel-inventory.txt` | Mixpanel analytics | Plain domains |
+| `Giphy-inventory.txt` | Giphy | Plain domains |
+| `Shopify-inventory.txt` | Shopify platform services | Plain domains |
+| `Bugsnag-inventory.txt` | Bugsnag monitoring | Plain domains |
+| `Juspay-inventory.txt` | Juspay payments | Plain domains |
 
 ## Sources
 
@@ -39,6 +55,7 @@ Domains are merged from the following community-maintained lists:
 - **Amazon:** [TimTheBig/pi-hole](https://github.com/TimTheBig/the_big_list_for_pi-hole), [Perflyst/AmazonFireTV](https://github.com/Perflyst/PiHoleBlocklist), [bloodhunterd/pi-hole-blocklists](https://github.com/bloodhunterd/pi-hole-blocklists)
 - **Apple:** [TimTheBig/pi-hole](https://github.com/TimTheBig/the_big_list_for_pi-hole), [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
 - **Per-app inventory lists** (`WhatsApp.txt`, `Duolingo.txt`, `Grammarly.txt`, `Facebook.txt`, `Zoom.txt`, `Apple-services-inventory.txt`, `Google-services-inventory.txt`, and merges into existing lists): observed domains from **NextDNS resolver logs** (suffix rules via [nextdns-adlist-export](https://github.com/ajax1337/Adlist)); merged with existing file contents — **no duplicate domain lines** within each file.
+- **September 28 inventories:** Bounded seven-day profile ML resolver logs, separated by verified service or provider. See [review and attribution](INSIGHTS-REVIEW-2026-09-28.md).
 
 ## Limitations
 
@@ -46,6 +63,7 @@ Domains are merged from the following community-maintained lists:
 - **Streaming:** Many streaming services serve ads from their own CDN, making DNS-level blocking less effective. Browser extensions or app-level blockers often work better.
 - **Apple:** Blocking `metrics.icloud.com` may affect some iCloud features. Exclude if you experience issues.
 - **Inventory lists:** Files built from live DNS logs (see Sources) are **not** the same as curated ad-only lists: they may include **API and CDN** hostnames. **Do not** use them as blind global blocklists — review first or use for analysis / targeted policies. `Apple-services-inventory.txt` / `Google-services-inventory.txt` are separate from curated **`Apple.txt`** (ads/analytics focus). YouTube delivery hosts (`googlevideo.com`, `gvt*`) are kept in **`ytdomains.txt`**, not in `Google-services-inventory.txt`.
+- **New service inventories:** `Netflix-inventory.txt`, `ChatGPT-inventory.txt`, Flo, Meesho, Truecaller, Shopify, Razorpay, and Juspay include functional service or payment endpoints. They are separate so one service can be reviewed without enabling unrelated blocks. Shared analytics and monitoring providers have their own lists, not app attribution. New lists are disabled in NextDNS-Pro by default.
 
 ## Usage
 
@@ -60,3 +78,5 @@ No App Store allowlist exceptions are retained. NextDNS Gaming independently blo
 ## Insights review
 
 [September 5, 2026 review](INSIGHTS-REVIEW-2026-09-05.md) compares every existing list with a complete seven-day ML log query and Insights classifications, documents additions and exclusions, and distinguishes new coverage from already-covered inventory entries. Service inventories block normal app functionality when enabled. Existing enabled states were preserved during refresh.
+
+[September 28, 2026 review](INSIGHTS-REVIEW-2026-09-28.md) checks all current lists against another complete seven-day ML window. It separates uncovered DNS hosts from unclassified app sessions, records new roots, and explains why shared infrastructure was excluded.

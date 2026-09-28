@@ -1,0 +1,37 @@
+# Netflix service and Open Connect delivery — observed DNS inventory
+# Last Updated: 2026-09-28
+# Source: ML stored DNS queries, 2026-09-21T11:19:44.057Z to 2026-09-28T11:19:44.057Z.
+# CAUTION: Includes functional service endpoints. Keep disabled unless full service blocking is intended.
+# Parent domains cover subdomains when imported into NextDNS.
+# Evidence and exclusions: INSIGHTS-REVIEW-2026-09-28.md
+
+ios-anycast.prod.ftl.netflix.com
+ios.ngp.prod.cloud.netflix.com
+ios.prod.cloud.netflix.com
+ios.prod.ftl.netflix.com
+ios26.appboot.netflix.com
+ios26.push.prod.netflix.com
+ios26.ws.prod.cloud.netflix.com
+ipv4-c001-blr002-jio-isp.1.oca.nflxvideo.net
+ipv4-c001-cok002-kccl-isp.1.oca.nflxvideo.net
+ipv4-c002-blr002-jio-isp.1.oca.nflxvideo.net
+ipv4-c002-cok002-kccl-isp.1.oca.nflxvideo.net
+ipv4-c003-blr002-jio-isp.1.oca.nflxvideo.net
+ipv4-c004-blr002-jio-isp.1.oca.nflxvideo.net
+ipv4-c005-maa001-jio-isp.1.oca.nflxvideo.net
+ipv4-c006-blr002-jio-isp.1.oca.nflxvideo.net
+ipv4-c006-maa001-jio-isp.1.oca.nflxvideo.net
+ipv4-c007-blr002-jio-isp.1.oca.nflxvideo.net
+ipv4-c007-maa001-jio-isp.1.oca.nflxvideo.net
+ipv4-c011-del002-ix.1.oca.nflxvideo.net
+ipv6-c001-blr002-jio-isp.1.oca.nflxvideo.net
+ipv6-c001-bpm002-jio-isp.1.oca.nflxvideo.net
+ipv6-c006-blr002-jio-isp.1.oca.nflxvideo.net
+ipv6-c007-blr002-jio-isp.1.oca.nflxvideo.net
+logs.netflix.com
+netflix.com
+nflxso.net
+nflxvideo.net
+occ-0-4994-3662.1.nflxso.net
+occ-0-6155-3663.1.nflxso.net
+www.netflix.com

@@ -1,0 +1,16 @@
+# Shopify platform services — observed DNS inventory
+# Last Updated: 2026-09-28
+# Source: ML stored DNS queries, 2026-09-21T11:19:44.057Z to 2026-09-28T11:19:44.057Z.
+# CAUTION: Includes functional service endpoints. Keep disabled unless full service blocking is intended.
+# Parent domains cover subdomains when imported into NextDNS.
+# Evidence and exclusions: INSIGHTS-REVIEW-2026-09-28.md
+
+cdn.shopify.com
+error-analytics-sessions-production.shopifysvc.com
+fonts.shopifycdn.com
+monorail-edge.shopifysvc.com
+otlp-http-production.shopifysvc.com
+shop.app
+shopify-assets.shopifycdn.com
+shopifycdn.com
+shopifysvc.com
