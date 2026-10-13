@@ -5,7 +5,6 @@
 evt.mxplay.com
 llvod.mxplay.com
 api.mxplayer.in
-mmx-ds.cdn.whatsapp.net
 qqcdnpictest.mxplay.com
 mxplayerpic.overseavideo.sched.apdcdn.com
 zoommx25ht.qr.zoom.us
