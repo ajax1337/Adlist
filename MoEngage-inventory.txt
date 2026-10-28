@@ -1,0 +1,10 @@
+
+# MoEngage-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+cdn.moengage.com
+image.moengage.com
+sdk-01.moengage.com
+sdk-03.moengage.com

@@ -1,0 +1,46 @@
+
+# Advertising-tracking-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+a.mgid.com
+a.teads.tv
+ade.clmbtech.com
+ads.pubmatic.com
+amplify.outbrain.com
+analytics.tiktok.com
+api.w.inmobi.com
+ase.clmbtech.com
+bat.bing.com
+btlr.sharethrough.com
+direct.adsrvr.org
+dt.adsafeprotected.com
+dynamic.criteo.com
+fastlane.rubiconproject.com
+grid-bidder.criteo.com
+hbopenbid.pubmatic.com
+htlb.casalemedia.com
+id5-sync.com
+image6.pubmatic.com
+lb.eu-1-id5-sync.com
+match.adsrvr.org
+mug.criteo.com
+oa.openxcdn.net
+ow.pubmatic.com
+prebid-server.rubiconproject.com
+prebid.media.net
+px.ads.linkedin.com
+rtb.openx.net
+servedby.flashtalking.com
+snap.licdn.com
+sslwidget.criteo.com
+ssum-sec.casalemedia.com
+static.ads-twitter.com
+static.adsafeprotected.com
+static.clmbtech.com
+static.criteo.net
+sync.crwdcntrl.net
+tags.crwdcntrl.net
+tr.outbrain.com
+u.openx.net

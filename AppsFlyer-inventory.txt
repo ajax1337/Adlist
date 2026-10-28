@@ -14,3 +14,7 @@ kjjinz.cdn-settings.appsflyersdk.com
 kjjinz.dlsdk.appsflyersdk.com
 kjjinz.skadsdk.appsflyersdk.com
 q85h1y.cdn-settings.appsflyersdk.com
+
+# Observed-domain additions reviewed 2026-10-28
+cdn.appsflyer.com
+cdnappicons.appsflyer.com

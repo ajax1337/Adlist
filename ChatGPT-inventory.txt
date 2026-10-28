@@ -13,3 +13,11 @@ ios.chat.openai.com
 oaistatic.com
 persistent.oaistatic.com
 ws.chatgpt.com
+
+# Observed-domain additions reviewed 2026-10-28
+auth.openai.com
+files.openai.com
+images.openai.com
+sdmntprdenmarkeast.oaiusercontent.com
+sdmntprindiasocentral.oaiusercontent.com
+sdmntpritalynorth.oaiusercontent.com

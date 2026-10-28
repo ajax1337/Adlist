@@ -1,0 +1,12 @@
+
+# Amplitude-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+api.amplitude.com
+api.lab.amplitude.com
+api2.amplitude.com
+cdn.amplitude.com
+gs.amplitude.com
+sr-client-cfg.amplitude.com

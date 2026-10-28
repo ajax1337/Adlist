@@ -1,0 +1,11 @@
+
+# WebEngage-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+c.webengage.com
+ssl.widgets.webengage.com
+widgets.in.webengage.com
+wsdk-files.in.webengage.com
+wsdk-files.webengage.com

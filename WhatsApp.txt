@@ -53,3 +53,6 @@ static.whatsapp.net
 whatsapp.com
 whatsapp.net
 www.whatsapp.com
+
+# Observed-domain additions reviewed 2026-10-28
+wa.me

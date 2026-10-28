@@ -1,0 +1,8 @@
+
+# PostHog-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+us-assets.i.posthog.com
+us.i.posthog.com

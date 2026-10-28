@@ -1,0 +1,13 @@
+
+# Flipkart-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+1.sonic.fdp.api.flipkart.com
+2.sonic.fdp.api.flipkart.com
+ac.flixcart.com
+img1a.flixcart.com
+rukminim2.flixcart.com
+static-assets-web.flixcart.com
+vod1.flixcart.com

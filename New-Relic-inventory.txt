@@ -1,0 +1,11 @@
+
+# New-Relic-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+bam.eu01.nr-data.net
+bam.nr-data.net
+js-agent.newrelic.com
+mobile-collector.eu01.nr-data.net
+mobile-collector.newrelic.com

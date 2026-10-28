@@ -1,0 +1,13 @@
+
+# GoKwik-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+analytics.gokwik.co
+api.gokwik.co
+cdn.gokwik.co
+gkx.gokwik.co
+hits.gokwik.co
+pdp.gokwik.co
+sdk.gokwik.co

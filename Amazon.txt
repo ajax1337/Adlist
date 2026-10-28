@@ -92,3 +92,13 @@ unagi.amazon.in
 us-east-1.prod.service.minerva.devices.a2z.com
 www.amazon.com
 zaz.api.amazonvideo.com
+
+# Observed-domain additions reviewed 2026-10-28
+ap-northeast-1-1.telemetry.insights.video.a2z.com
+ap-northeast-1-2.telemetry.insights.video.a2z.com
+ap-northeast-1-3.telemetry.insights.video.a2z.com
+api.stores.eu-south-2.prod.mt.paets.advertising.amazon.dev
+prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
+wetfs.global-1.telemetry.insights.video.a2z.com
+wetfs.global-2.telemetry.insights.video.a2z.com
+wetfs.global-3.telemetry.insights.video.a2z.com

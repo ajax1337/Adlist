@@ -2,7 +2,7 @@
 
 Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/tracking blockers.
 
-**Last Updated:** 2026-09-28
+**Last Updated:** 2026-10-28
 
 ## Lists
 
@@ -80,3 +80,25 @@ No App Store allowlist exceptions are retained. NextDNS Gaming independently blo
 [September 5, 2026 review](INSIGHTS-REVIEW-2026-09-05.md) compares every existing list with a complete seven-day ML log query and Insights classifications, documents additions and exclusions, and distinguishes new coverage from already-covered inventory entries. Service inventories block normal app functionality when enabled. Existing enabled states were preserved during refresh.
 
 [September 28, 2026 review](INSIGHTS-REVIEW-2026-09-28.md) checks all current lists against another complete seven-day ML window. It separates uncovered DNS hosts from unclassified app sessions, records new roots, and explains why shared infrastructure was excluded.
+
+## October 2026 inventory update
+
+[Attribution and boundaries](SOURCES-2026-10-28.md) documents reviewed additions. Existing lists retain all prior entries. New inventories are registered disabled; service, subscription, healthcare, checkout, analytics and advertising endpoints are kept distinct. Inventory membership does not itself mean harmful traffic or an active block.
+
+| File | Purpose |
+|------|---------|
+| `Advertising-tracking-inventory.txt` | Advertising-tracking (inventory) |
+| `Other-analytics-inventory.txt` | Other-analytics (inventory) |
+| `GoKwik-inventory.txt` | GoKwik (inventory) |
+| `Branch-inventory.txt` | Branch (inventory) |
+| `Flipkart-inventory.txt` | Flipkart (inventory) |
+| `New-Relic-inventory.txt` | New-Relic (inventory) |
+| `WebEngage-inventory.txt` | WebEngage (inventory) |
+| `MoEngage-inventory.txt` | MoEngage (inventory) |
+| `Amplitude-inventory.txt` | Amplitude (inventory) |
+| `PostHog-inventory.txt` | PostHog (inventory) |
+| `MediBuddy-inventory.txt` | MediBuddy (inventory) |
+| `RevenueCat-inventory.txt` | RevenueCat (inventory) |
+| `CleverTap-inventory.txt` | CleverTap (inventory) |
+| `Cloudflare-Analytics-inventory.txt` | Cloudflare-Analytics (inventory) |
+| `Netcore-inventory.txt` | Netcore (inventory) |

@@ -1,0 +1,13 @@
+
+# MediBuddy-inventory
+# Observed service/provider inventory; disabled by default.
+# May include functional endpoints; not a malware verdict or ad-only guarantee.
+
+# Observed-domain additions reviewed 2026-10-28
+bifrost-prod.medibuddy.in
+loginprod.medibuddy.in
+mb-meds-assets.medibuddy.in
+mb-prod-events-platform-collector-server.medibuddy.in
+unified-checkout-frontend.medibuddy.in
+views.medibuddy.in
+www.medibuddy.in
