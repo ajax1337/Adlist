@@ -101,4 +101,5 @@ No App Store allowlist exceptions are retained. NextDNS Gaming independently blo
 | `RevenueCat-inventory.txt` | RevenueCat (inventory) |
 | `CleverTap-inventory.txt` | CleverTap (inventory) |
 | `Cloudflare-Analytics-inventory.txt` | Cloudflare-Analytics (inventory) |
-| `Netcore-inventory.txt` | Netcore (inventory) |
+
+Netcore engagement endpoints are included in `Other-analytics-inventory.txt` to fit the application inventory limit.

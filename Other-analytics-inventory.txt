@@ -8,9 +8,16 @@ api.ibeat-analytics.com
 api.iterable.com
 api.receptivity.io
 c.go-mpulse.net
+cdnt.netcoresmartech.com
+cdnvc.netcoresmartech.com
+cpn.netcoresmartech.com
 dev.visualwebsiteoptimizer.com
 heapanalytics.com
+npn.netcoresmartech.com
+osjs.netcoresmartech.com
+psegment.netcoresmartech.com
 script.hotjar.com
 static.hotjar.com
+twa.netcoresmartech.com
 ujm.hansel.io
 vc.hotjar.io
