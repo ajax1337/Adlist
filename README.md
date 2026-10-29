@@ -111,3 +111,7 @@ Netcore engagement endpoints are included in `Other-analytics-inventory.txt` to 
 ## October 29 deeper ownership review
 
 [Evidence and endpoint boundaries](SOURCES-2026-10-29-DEEP.md) documents 19 reviewed entries across 4 existing inventories. Functional provider endpoints are kept separate from advertising and analytics. No inventory enablement changes are included.
+
+## October 29 remaining six-domain review
+
+[Evidence and endpoint boundaries](SOURCES-2026-10-29-FINAL-SIX.md) documents 1 reviewed entries across 1 existing inventories. Functional provider endpoints are kept separate from advertising and analytics. No inventory enablement changes are included.

@@ -80,3 +80,6 @@ scripts.coolretargeting.com
 scripts.prdredir.com
 t.o-s.io
 www.btd-zaz.tq-tungsten.com
+
+# Final-six review additions 2026-10-29
+trk.pxlnow.in
