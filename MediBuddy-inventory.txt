@@ -11,3 +11,8 @@ mb-prod-events-platform-collector-server.medibuddy.in
 unified-checkout-frontend.medibuddy.in
 views.medibuddy.in
 www.medibuddy.in
+
+# Evidence-reviewed additions 2026-10-29
+authgateway.docsapp.in
+eventlogs.docsapp.in
+mqtt-patient.docsapp.in

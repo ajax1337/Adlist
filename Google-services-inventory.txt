@@ -132,3 +132,7 @@ script.googleusercontent.com
 signedoutstate-pa.googleapis.com
 t1.gstatic.com
 tasks-pa.googleapis.com
+
+# Evidence-reviewed additions 2026-10-29
+csp.withgoogle.com
+www.merchant-center-analytics.goog

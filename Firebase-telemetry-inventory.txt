@@ -8,3 +8,8 @@
 app-analytics-services.com
 app-measurement.com
 firebase-settings.crashlytics.com
+
+# Evidence-reviewed additions 2026-10-29
+muf.app-ads-services.com
+odf.app-ads-services.com
+www.app-ads-services.com

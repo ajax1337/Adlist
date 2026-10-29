@@ -5,3 +5,6 @@
 
 # Observed-domain additions reviewed 2026-10-28
 api.revenuecat.com
+
+# Evidence-reviewed additions 2026-10-29
+api-production.8-lives-cat.io

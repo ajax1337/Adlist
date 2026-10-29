@@ -35,3 +35,6 @@ nflxvideo.net
 occ-0-4994-3662.1.nflxso.net
 occ-0-6155-3663.1.nflxso.net
 www.netflix.com
+
+# Evidence-reviewed additions 2026-10-29
+dnm.nflximg.net

@@ -2,7 +2,7 @@
 
 Domain blocklists for Pi-hole, AdGuard Home, uBlock Origin, and similar ad/tracking blockers.
 
-**Last Updated:** 2026-10-28
+**Last Updated:** 2026-10-29
 
 ## Lists
 
@@ -103,3 +103,7 @@ No App Store allowlist exceptions are retained. NextDNS Gaming independently blo
 | `Cloudflare-Analytics-inventory.txt` | Cloudflare-Analytics (inventory) |
 
 Netcore engagement endpoints are included in `Other-analytics-inventory.txt` to fit the application inventory limit.
+
+## October 29 attribution follow-up
+
+[Evidence and endpoint boundaries](SOURCES-2026-10-29.md) documents 53 reviewed entries across 13 existing inventories. Functional provider endpoints are kept separate from advertising and analytics. No inventory enablement changes are included.

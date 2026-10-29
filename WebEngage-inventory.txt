@@ -9,3 +9,7 @@ ssl.widgets.webengage.com
 widgets.in.webengage.com
 wsdk-files.in.webengage.com
 wsdk-files.webengage.com
+
+# Evidence-reviewed additions 2026-10-29
+z10a5cb557.webengage.co
+z10a5cb63c.webengage.co

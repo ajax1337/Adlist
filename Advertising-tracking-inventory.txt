@@ -44,3 +44,24 @@ sync.crwdcntrl.net
 tags.crwdcntrl.net
 tr.outbrain.com
 u.openx.net
+
+# Evidence-reviewed additions 2026-10-29
+a.quora.com
+advertiser.inmobiapis.com
+affs.in
+connectid.analytics.yahoo.com
+dmp.im-apps.net
+esp.rtbhouse.com
+gumi.criteo.com
+ident.mygaru.com
+invstatic101.creativecdn.com
+jsconfig.adsafeprotected.com
+lbs.eu-1-id5-sync.com
+p1.outbrain.com
+pzapi-ij.com
+q.quora.com
+secure.cdn.fastclick.net
+staticjs.adsafeprotected.com
+sync.inmobi.com
+sync6.im-apps.net
+wave.outbrain.com

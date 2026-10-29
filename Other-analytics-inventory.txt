@@ -21,3 +21,18 @@ static.hotjar.com
 twa.netcoresmartech.com
 ujm.hansel.io
 vc.hotjar.io
+
+# Evidence-reviewed additions 2026-10-29
+amp.analytics-debugger.com
+api.growthrx.in
+api.pirsch.io
+c.ba.contentsquare.net
+cdn-sdk.hansel.io
+co.akisinn.info
+ingest.promptwatch.com
+int.akisinn.info
+metrics.hotjar.io
+static.growthrx.in
+track-api.workmagic.io
+web-analytics.trayalabs.com
+webanalytics.space

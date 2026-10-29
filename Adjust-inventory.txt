@@ -7,3 +7,6 @@
 
 adjust.com
 analytics.adjust.com
+
+# Evidence-reviewed additions 2026-10-29
+analytics.adjust.io

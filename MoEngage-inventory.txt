@@ -8,3 +8,6 @@ cdn.moengage.com
 image.moengage.com
 sdk-01.moengage.com
 sdk-03.moengage.com
+
+# Evidence-reviewed additions 2026-10-29
+u3.mnge.co

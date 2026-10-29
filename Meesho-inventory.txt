@@ -13,3 +13,9 @@ meesho.com
 prod.meeshoapi.com
 sentry.meesho.com
 videos.meesho.com
+
+# Evidence-reviewed additions 2026-10-29
+ext-lb-images-meesho-prd.meeshogcp.in
+static.meeshosupply.com
+upload.meeshosupplyassets.com
+web-sdk-ingestion.deng.meeshogcp.in

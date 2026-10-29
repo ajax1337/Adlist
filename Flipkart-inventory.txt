@@ -11,3 +11,7 @@ img1a.flixcart.com
 rukminim2.flixcart.com
 static-assets-web.flixcart.com
 vod1.flixcart.com
+
+# Evidence-reviewed additions 2026-10-29
+2.rome.api.flipkart.net
+connekt.flipkart.net
