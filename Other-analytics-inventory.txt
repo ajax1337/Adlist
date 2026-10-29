@@ -36,3 +36,8 @@ static.growthrx.in
 track-api.workmagic.io
 web-analytics.trayalabs.com
 webanalytics.space
+
+# Deep-review additions 2026-10-29
+sdks.automizely-analytics.com
+trafficwisehub.com
+www.automizely-analytics.com

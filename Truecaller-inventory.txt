@@ -21,3 +21,7 @@ search-warnings-noneu.truecaller.com
 survey-noneu.truecaller.com
 tagging5-noneu.truecaller.com
 truecaller.com
+
+# Deep-review additions 2026-10-29
+premium-promo.truecallerstatic.com
+tagging-assets-noneu.truecallerstatic.com

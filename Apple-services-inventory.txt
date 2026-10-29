@@ -245,3 +245,6 @@ xp.apple.com
 
 # Observed-domain additions reviewed 2026-10-28
 tether.edge.apple
+
+# Deep-review additions 2026-10-29
+ingest.apple-studies.com

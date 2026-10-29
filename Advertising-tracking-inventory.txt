@@ -65,3 +65,18 @@ staticjs.adsafeprotected.com
 sync.inmobi.com
 sync6.im-apps.net
 wave.outbrain.com
+
+# Deep-review additions 2026-10-29
+c.ltmsphrcl.net
+carbon-cdn.ccgateway.net
+cdn.mgaru.dev
+indexfunction.com
+origin.amazon-ads-attestation.com
+pb-ing-02.ccgateway.net
+pixel.coolretargeting.com
+pixel.prdredir.com
+script-api.ccgateway.net
+scripts.coolretargeting.com
+scripts.prdredir.com
+t.o-s.io
+www.btd-zaz.tq-tungsten.com
